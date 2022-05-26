@@ -1,5 +1,4 @@
-# error_pages
-custom error pages
+# custom error pages
 these error 404 pages can be added to nginx proxy manager by creating a error page(s) usually in ~/data/nginx/error_pages/
 this folder will need to be created though and also dir called 404 or whatever name scheme you want. just remember to change the custom 404 host dir data.
 
