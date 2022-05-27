@@ -24,7 +24,8 @@ npm settings
 
 ![edit 404 host](https://raw.githubusercontent.com/Xstar97/error_pages/main/imgs/edit%20404.png)
 
-    //you have the option to use a single 404 by declaring it like so:
+    # you have the option to use a single 404 by declaring it like so:
+    
     location / {
     root /data/nginx/error_pages/404/pickle-rick; # pickle-rick is the folder of choice
     try_files $uri /index.html;
